@@ -1,0 +1,12 @@
+.\nokia5110.o: Nokia5110.c
+.\nokia5110.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\string.h
+.\nokia5110.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\math.h
+.\nokia5110.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\nokia5110.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\nokia5110.o: D:\Programas\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\nokia5110.o: tm4c123gh6pm.h
+.\nokia5110.o: Nokia5110.h
+.\nokia5110.o: TivaES.h
+.\nokia5110.o: Terminal3.h
+.\nokia5110.o: Terminal6.h
+.\nokia5110.o: Terminal12.h

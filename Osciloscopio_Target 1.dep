@@ -1,0 +1,55 @@
+Dependencies for Project 'Osciloscopio', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Nokia5110.c)(0x62D9FAA9)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars-I D:\Programas\Keil\ARM\RV31\INC-I D:\Programas\Keil\ARM\CMSIS\Include-I D:\Programas\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (D:\Programas\Keil\ARM\ARMCC\include\string.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\math.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdlib.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdio.h)(0x51C87C24)
+I (tm4c123gh6pm.h)(0x5ABBE707)
+I (Nokia5110.h)(0x62D9FAA9)
+I (TivaES.h)(0x5D6F0FE9)
+I (Terminal3.h)(0x60EAC09C)
+I (Terminal6.h)(0x60EAC09C)
+I (Terminal12.h)(0x60EAC09C)
+F (.\Nokia5110.h)(0x62D9FAA9)()
+F (.\startup.s)(0x60ECB230)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Programas\Keil\ARM\RV31\INC-I D:\Programas\Keil\ARM\CMSIS\Include-I D:\Programas\Keil\ARM\Inc\TI\TM4C123--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\tm4c123gh6pm.h)(0x5ABBE707)()
+F (.\main.c)(0x62E40946)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars-I D:\Programas\Keil\ARM\RV31\INC-I D:\Programas\Keil\ARM\CMSIS\Include-I D:\Programas\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdlib.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdio.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdbool.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\string.h)(0x51C87C24)
+I (tm4c123gh6pm.h)(0x5ABBE707)
+I (Nokia5110.h)(0x62D9FAA9)
+I (ElementosGraficos.h)(0x62D9E992)
+I (Uart.h)(0x62BE33B4)
+I (moduloADC.h)(0x62BE2BE9)
+I (PuertosDFyTimer.h)(0x62BE3901)
+I (../bitmap.h)(0x62E40946)
+F (.\Terminal3.h)(0x60EAC09C)()
+F (.\Terminal6.h)(0x60EAC09C)()
+F (.\Terminal12.h)(0x60EAC09C)()
+F (.\TivaES.h)(0x5D6F0FE9)()
+F (.\TivaES.obj)(0x5D6F0FED)()
+F (.\osciloscopio.h)(0x62A619D4)()
+F (.\moduloADC.c)(0x62BE2BE5)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars-I D:\Programas\Keil\ARM\RV31\INC-I D:\Programas\Keil\ARM\CMSIS\Include-I D:\Programas\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\moduloadc.o --omf_browse .\moduloadc.crf --depend .\moduloadc.d)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdbool.h)(0x51C87C24)
+I (tm4c123gh6pm.h)(0x5ABBE707)
+I (moduloADC.h)(0x62BE2BE9)
+F (.\moduloADC.h)(0x62BE2BE9)()
+F (.\ElementosGraficos.h)(0x62D9E992)()
+F (.\Uart.h)(0x62BE33B4)()
+F (.\Uart.c)(0x62BE343C)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars-I D:\Programas\Keil\ARM\RV31\INC-I D:\Programas\Keil\ARM\CMSIS\Include-I D:\Programas\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdbool.h)(0x51C87C24)
+I (tm4c123gh6pm.h)(0x5ABBE707)
+I (Uart.h)(0x62BE33B4)
+F (.\PuertosDFyTimer.h)(0x62BE3901)()
+F (.\PuertosDFyTimer.c)(0x62BE3919)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars-I D:\Programas\Keil\ARM\RV31\INC-I D:\Programas\Keil\ARM\CMSIS\Include-I D:\Programas\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\puertosdfytimer.o --omf_browse .\puertosdfytimer.crf --depend .\puertosdfytimer.d)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdint.h)(0x51C87C24)
+I (D:\Programas\Keil\ARM\ARMCC\include\stdbool.h)(0x51C87C24)
+I (tm4c123gh6pm.h)(0x5ABBE707)
+I (PuertosDFyTimer.h)(0x62BE3901)
+F (..\bitmap.h)(0x62E40946)()

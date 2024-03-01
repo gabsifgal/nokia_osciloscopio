@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Gab\Desktop\ray\OSCILOSCOPIO\Osciloscopio.uvproj
+Project File Date:  07/19/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling Nokia5110.c...
+Nokia5110.h(295): warning:  #1295-D: Deprecated declaration clearBuffer - give arg types
+  void clearBuffer();
+Nokia5110.c(1648): warning:  #177-D: variable "bck" was declared but never referenced
+      unsigned char *bck = frames[9];
+Nokia5110.c: 2 warnings, 0 errors
+assembling startup.s...
+compiling main.c...
+Nokia5110.h(295): warning:  #1295-D: Deprecated declaration clearBuffer - give arg types
+  void clearBuffer();
+ElementosGraficos.h(54): warning:  #1-D: last line of file ends without a newline
+        
+../bitmap.h(40): warning:  #1-D: last line of file ends without a newline
+  };
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+                        Nokia5110_DrawFullImage((unsigned char*)bitmap0);
+main.c(102): warning:  #177-D: variable "V1" was declared but never referenced
+        float V1, V2;
+main.c(102): warning:  #177-D: variable "V2" was declared but never referenced
+        float V1, V2;
+main.c(103): warning:  #177-D: variable "amplitud" was declared but never referenced
+        float amplitud=1;
+main.c(104): warning:  #177-D: variable "settings" was declared but never referenced
+        uint16_t settings;
+main.c(112): warning:  #177-D: variable "Screen" was declared but never referenced
+        uint8_t Screen[504];
+main.c: 9 warnings, 0 errors
+compiling moduloADC.c...
+compiling Uart.c...
+Uart.c(19): warning:  #550-D: variable "temmp" was set but never used
+        uint32_t temmp;
+Uart.c: 1 warning, 0 errors
+compiling PuertosDFyTimer.c...
+linking...
+Program Size: Code=2196 RO-data=3548 RW-data=36 ZI-data=2036  
+".\Osciloscopio.axf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\Gab\\Desktop\\ray\\OSCILOSCOPIO\\Osciloscopio.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>

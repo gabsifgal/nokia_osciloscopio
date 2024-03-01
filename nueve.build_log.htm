@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\PUCP\2022-1\IEE256\once\nueve\nueve.uvproj
+Project File Date:  06/29/2022
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling Nokia5110.c...
+Nokia5110.h(294): warning:  #1295-D: Deprecated declaration clearBuffer - give arg types
+  void clearBuffer();
+Nokia5110.c: 1 warning, 0 errors
+assembling startup.s...
+compiling main.c...
+Nokia5110.h(294): warning:  #1295-D: Deprecated declaration clearBuffer - give arg types
+  void clearBuffer();
+ElementosGraficos.h(54): warning:  #1-D: last line of file ends without a newline
+        
+main.c(189): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                        snprintf(voltchar1, sizeof voltchar1, "%f", V1);
+main.c(193): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                        snprintf(voltchar2, sizeof voltchar2, "%f", V2);
+main.c(197): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                        snprintf(frecchar, sizeof frecchar, "%f", frec);
+main.c(243): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        snprintf(voltchar1, sizeof voltchar1, "%f", V1);
+main.c(257): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        snprintf(voltchar1, sizeof voltchar1, "%f", V1);
+main.c(271): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        snprintf(voltchar2, sizeof voltchar2, "%f", V2);
+main.c(285): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+                                        snprintf(voltchar2, sizeof voltchar2, "%f", V2);
+main.c: 9 warnings, 0 errors
+compiling moduloADC.c...
+compiling Uart.c...
+Uart.c(19): warning:  #550-D: variable "temmp" was set but never used
+        uint32_t temmp;
+Uart.c: 1 warning, 0 errors
+compiling PuertosDFyTimer.c...
+linking...
+Program Size: Code=10184 RO-data=4388 RW-data=32 ZI-data=2368  
+".\nueve.axf" - 0 Error(s), 11 Warning(s).
+</pre>
+</body>
+</html>
